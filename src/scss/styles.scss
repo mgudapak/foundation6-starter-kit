@@ -6,3 +6,19 @@
 .test {
   color: red;
 }
+
+.decorated {
+  .example {
+    margin-bottom: 2.5em;
+  }
+
+  .demo {
+    background: #1779ba;
+  }
+
+  .cell {
+    background: red;
+    color: white;
+    text-align: center;
+  }
+}

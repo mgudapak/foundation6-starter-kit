@@ -10,13 +10,128 @@
 </head>
 
 <body>
-  <div class="grid-container">
-    <div class="grid-x grid-padding-x">
-      <div class="large-12 cell">
-        <h1>Welcome to Foundation</h1>
+  <h1>Welcome to Foundation</h1>
+
+  <!--  -->
+  <div class="decorated">
+
+    <p>Colors have been added to demonstrate the workings or the XY grid.</p>
+    <ul>
+      <li>Grid has no background.</li>
+      <li>Cell has a red background.</li>
+      <li>The demo div inside of the cell has a blue background.</li>
+    </ul>
+
+    <!-- ex.1 - default - no padding or margins -->
+    <div class="example">
+      <h4>Example 1: Default (No Margin or Padding)</h4>
+      <p>Default grids in the XY grid have no spaces or gutters - as in, cells
+        have no margin and no padding. To add margins and/or padding you do so by
+        adding on additional classes.</p>
+      <div class="grid-x">
+        <div class="cell medium-6 large-4">
+          <div class="demo">S12/M6/L4 cells</div>
+        </div>
+        <div class="cell medium-6 large-8">
+          <div class="demo">S12/M6/L8 cells</div>
+        </div>
       </div>
     </div>
 
+    <!-- ex.2 - Margin based gutters -->
+    <div class="example">
+      <h4>Example 2: Margin Gutters</h4>
+      <div class="grid-x grid-margin-x">
+        <div class="cell medium-6 large-4">
+          <div class="demo">S12/M6/L4 cells</div>
+        </div>
+        <div class="cell medium-6 large-8">
+          <div class="demo">S12/M6/L8 cells</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ex.3 - Padding based gutters -->
+    <div class="example">
+      <h4>Example 3: Padding Gutters</h4>
+      <div class="grid-x grid-padding-x">
+        <div class="cell medium-6 large-4">
+          <div class="demo">S12/M6/L4 cells</div>
+        </div>
+        <div class="cell medium-6 large-8">
+          <div class="demo">S12/M6/L8 cells</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ex.4 - Margin based gutters w/ vertical spacing -->
+    <div class="example">
+      <h4>Example 4: Margin Gutters w/ vertical spacing</h4>
+      <div class="grid-x grid-margin-x grid-margin-y">
+        <div class="cell medium-6 large-4">
+          <div class="demo">S12/M6/L4 cells</div>
+        </div>
+        <div class="cell medium-6 large-8">
+          <div class="demo">S12/M6/L8 cells</div>
+        </div>
+        <div class="cell medium-6 large-4">
+          <div class="demo">S12/M6/L4 cells</div>
+        </div>
+        <div class="cell medium-6 large-8">
+          <div class="demo">S12/M6/L8 cells</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ex.5 - Cells w/ padding all around -->
+    <div class="example">
+      <h4>Example 5: Padding all around</h4>
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="cell medium-6 large-4">
+          <div class="demo">S12/M6/L4 cells</div>
+        </div>
+        <div class="cell medium-6 large-8">
+          <div class="demo">S12/M6/L8 cells</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ex.6 - Adding both Margin and Padding -->
+    <div class="example">
+      <h4>Example 6: Adding both Margin and Padding</h4>
+      <div class="grid-x grid-margin-x grid-margin-y grid-padding-x grid-padding-y">
+        <div class="cell medium-6 large-4">
+          <div class="demo">S12/M6/L4 cells</div>
+        </div>
+        <div class="cell medium-6 large-8">
+          <div class="demo">S12/M6/L8 cells</div>
+        </div>
+        <div class="cell medium-6 large-4">
+          <div class="demo">S12/M6/L4 cells</div>
+        </div>
+        <div class="cell medium-6 large-8">
+          <div class="demo">S12/M6/L8 cells</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ex.7 - Vertical Grids -->
+    <div class="example">
+      <h4>Example 7: Vertical Grids</h4>
+      <div class="grid-y grid-margin-y">
+        <div class="cell small-6 medium-8 large-2">
+          <div class="demo">S6/M8/L2 cells</div>
+        </div>
+        <div class="cell small-6 medium-4 large-10">
+          <div class="demo">S6/M4/L10 cells</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div class="grid-container">
     <div class="grid-x grid-padding-x">
       <div class="large-12 cell">
         <div class="callout">
@@ -60,7 +175,6 @@
     <div class="grid-x grid-padding-x">
       <div class="large-8 medium-8 cell">
         <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
 
         <div class="grid-x grid-padding-x">
           <div class="large-12 cell">
